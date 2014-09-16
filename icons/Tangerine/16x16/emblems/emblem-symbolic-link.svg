@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="90.000000"
+   inkscape:export-xdpi="90.000000"
+   inkscape:export-filename="/home/jimmac/Desktop/wi-fi.png"
+   width="16"
+   height="16"
+   id="svg11300"
+   sodipodi:version="0.32"
+   inkscape:version="0.45+devel"
+   sodipodi:docbase="/home/lapo/Icone/svn/gnome-icon-theme/16x16/emblems"
+   sodipodi:docname="emblem-symbolic-link.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient6982">
+      <stop
+         style="stop-color:#888a85;stop-opacity:1"
+         offset="0"
+         id="stop6984" />
+      <stop
+         style="stop-color:#6f716b;stop-opacity:1;"
+         offset="1"
+         id="stop6986" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2790">
+      <stop
+         style="stop-color:white;stop-opacity:1;"
+         offset="0"
+         id="stop2792" />
+      <stop
+         id="stop2798"
+         offset="0.8108108"
+         style="stop-color:#d3d7cf;stop-opacity:1;" />
+      <stop
+         style="stop-color:#959e8b;stop-opacity:1;"
+         offset="1"
+         id="stop2794" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2790"
+       id="linearGradient7006"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9911612,0,0,0.9941074,27.584575,77.575736)"
+       x1="3.95"
+       y1="3.125"
+       x2="17.549999"
+       y2="23.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6982"
+       id="linearGradient7008"
+       gradientUnits="userSpaceOnUse"
+       x1="40.81712"
+       y1="86.903275"
+       x2="41.056385"
+       y2="87.14254" />
+  </defs>
+  <sodipodi:namedview
+     stroke="#ef2929"
+     fill="#888a85"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="0.25490196"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="41.991116"
+     inkscape:cy="-1.9716986"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:grid-bbox="false"
+     inkscape:document-units="px"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="908"
+     inkscape:window-height="924"
+     inkscape:window-x="414"
+     inkscape:window-y="126"
+     showborder="false"
+     width="16px"
+     height="16px"
+     borderlayer="true"
+     inkscape:grid-points="true"
+     gridspacingx="0.5px"
+     gridspacingy="0.5px"
+     gridempspacing="2" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lapo Calamandrei</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+        <dc:title>Read-only</dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>emblem</rdf:li>
+            <rdf:li>read-only</rdf:li>
+            <rdf:li>no-read</rdf:li>
+            <rdf:li>locked</rdf:li>
+            <rdf:li>lock</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g6994"
+       transform="matrix(-1,0,0,1,47.925476,-81)">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         id="path6906"
+         d="M 33.5,83.5 L 33.531542,95.469669 L 37.991767,90.996186 L 42.451992,95.469669 L 45.425476,92.487347 L 40.965251,88.013864 L 45.425476,83.54038 L 33.5,83.5 z"
+         style="fill:url(#linearGradient7006);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient7008);stroke-width:0.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="M 34.5,84.5 L 34.53125,93.09375 L 37.3125,90.3125 C 37.696007,89.94212 38.303993,89.94212 38.6875,90.3125 L 42.4375,94.09375 L 44.03125,92.46875 L 40.28125,88.6875 C 39.91087,88.303993 39.91087,87.696007 40.28125,87.3125 L 43.0625,84.53125 L 34.5,84.5 z"
+         id="path6992"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:original="M 33.5 83.5 L 33.53125 95.46875 L 38 91 L 42.4375 95.46875 L 45.4375 92.5 L 40.96875 88 L 45.4375 83.53125 L 33.5 83.5 z "
+         inkscape:radius="-0.98955274"
+         sodipodi:type="inkscape:offset" />
+    </g>
+  </g>
+</svg>
