@@ -48,4 +48,5 @@ TEXT
   { "full_text" : "RAM ${mem}" , "color" :
     ${if_match ${memperc}<90}"\#ffffff"${else}"\#ff0000"${endif} },
 #  { "full_text" : "DL ${downspeed enp4s1}" , "color" : "\#ffffff" },
+     {"full_text" : "Battery ${battery_percent}%" , "color" : "\#ffffff" },
   { "full_text" : "        ${time %T}        ", "color" : "\#ff8000" }],
