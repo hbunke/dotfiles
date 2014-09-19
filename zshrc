@@ -93,7 +93,7 @@ export DATE=`date "+%Y%m%d.%H%M"`
 ################## ALIAS #######################################
 alias ll='ls -lpaFh | most'
 alias dir='ls -lLa | grep "^d"'
-alias su='su -m'
+#alias su='su -m'
 alias ping='ping -v'
 alias gvim='gvim -p'
 alias mutt='cd ~/mail && mutt'
