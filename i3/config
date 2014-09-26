@@ -32,15 +32,18 @@ floating_modifier $mod
 
 # start a terminal
 ### to use this you need to set $TERMINAL in .zshrc
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
 
 ### else name the terminal here (not good for git)
-#bindsym $mod+Return exec roxterm
+bindsym $mod+Return exec roxterm
 #bindsym $mod+Return exec xfce4-terminal
+#bindsy $mod+Return exec terminator
 
 #bindsym $mod+F1 exec chromium
 #bindsym $mod+F1 exec /home/bunke/.nix-profile/bin/chromium
-bindsym $mod+F1 exec google-chrome-stable
+#bindsym $mod+F1 exec google-chrome-stable
+bindsym $mod+F1 exec firefox
+
 bindsym $mod+F2 exec gvim
 
 # kill focused window
@@ -198,7 +201,8 @@ for_window [class="Gvim"] floating_minimum_size 500x400
 
 
 # colors
-client.focused #4c7899 #F59E11 #ffffff #2e9ef4
+#client.focused #4c7899 #F59E11 #ffffff #2e9ef4
+client.focused #4c7899 #ce5c00 #ffffff #2e9ef4
 
 ### autostarts ###
 

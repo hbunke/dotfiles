@@ -11,6 +11,10 @@ setopt extended_glob
 
 setopt prompt_subst
 
+# hidden from github; in addition getting platform infos
+source $HOME/.zshrc_local
+
+
 ### VCS at prompt
 autoload -Uz vcs_info
 #zstyle ':vcs_info:*' debug true
@@ -130,6 +134,13 @@ if [[ $OS = FreeBSD ]]; then
     alias ls='ls -Gp'
 fi
 
-# hidden from github
-source ~/.dotsecrets/zshrc
+
+#settings for different platforms; platform is set in .zshrc_local
+if [[ $platform = nixos ]]; then
+    export TERMINAL="xfce4-terminal"
+else
+    export TERMINAL="roxterm"
+fi
+
+
 
