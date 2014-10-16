@@ -40,11 +40,9 @@ bindsym $mod+Return exec roxterm
 #bindsy $mod+Return exec terminator
 
 #bindsym $mod+F1 exec chromium
-#bindsym $mod+F1 exec /home/bunke/.nix-profile/bin/chromium
-#bindsym $mod+F1 exec google-chrome-stable
+bindsym $mod+F2 exec /home/bunke/.nix-profile/bin/chromium
 bindsym $mod+F1 exec firefox
-
-bindsym $mod+F2 exec gvim
+#bindsym $mod+F2 exec google-chrome-stable
 
 # kill focused window
 #bindsym $mod+Shift+q kill
