@@ -18,7 +18,7 @@ let g:solarized_visibility='high'
 
 " ##### fonts! #############
 "set guifont=Courier\ 10\ Pitch\ 11
-set guifont=Liberation\ Mono\ 10
+set guifont=Liberation\ Mono\ 11
 "set guifont=Droid\ Sans\ Mono\ 10
 "set guifont=Inconsolata-g\ 10
 "set guifont=Source\ Code\ Pro\ Regular\ 10

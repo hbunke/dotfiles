@@ -42,11 +42,21 @@ TEXT
 # JSON for i3bar
 
 
-[{ "full_text" : "/home ${fs_free /home}" , "color" : "\#ffffff" },
-  { "full_text" : "CPU: ${cpu cpu0}%" , "color" : 
+[   
+    { "full_text": "${kernel}" },
+    
+    { "full_text" : "/home ${fs_free /home}" , "color" : "\#ffffff" },
+    
+    { "full_text" : "CPU: ${cpu cpu0}%" , "color" : 
         ${if_match ${cpu cpu0}<90}"\#ffffff"${else}"\#ff0000"${endif} },
-  { "full_text" : "RAM ${mem}" , "color" :
-    ${if_match ${memperc}<90}"\#ffffff"${else}"\#ff0000"${endif} },
-#  { "full_text" : "DL ${downspeed enp4s1}" , "color" : "\#ffffff" },
-     {"full_text" : "Battery ${battery_percent}%" , "color" : "\#ffffff" },
-  { "full_text" : "        ${time %T}        ", "color" : "\#ff8000" }],
+    
+    { "full_text" : "RAM ${mem}" , "color" :
+        ${if_match ${memperc}<90}"\#ffffff"${else}"\#ff0000"${endif} },
+   
+    {"full_text" : "Battery ${battery_percent}%" , "color" : "\#ffffff" },
+    
+    { "full_text" : "        ${time %H:%M:%S}        ", "color" : "\#ff8000" }
+],
+
+
+
