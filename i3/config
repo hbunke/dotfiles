@@ -36,6 +36,7 @@ bindsym $mod+F2 exec chromium
 #bindsym $mod+F2 exec /home/bunke/.nix-profile/bin/chromium
 bindsym $mod+F1 exec firefox
 #bindsym $mod+F2 exec google-chrome-stable
+bindsym $mod+F3 exec dwb
 
 # kill focused window
 #bindsym $mod+Shift+q kill
@@ -46,8 +47,9 @@ bindsym $mod+F4 kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-#bindsym $mod+d exec --no-startup-id synapse
+
+#dmenu-xft needed for this!
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu_run -i -fn 'Liberation Sans-10' -nb darkred -nf white"
 
 bindsym $mod+Shift+P move scratchpad
 bindsym $mod+p scratchpad show
