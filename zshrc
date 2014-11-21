@@ -59,6 +59,26 @@ setopt auto_cd
 zstyle ':completion:*' menu select=2
 
 
+### Roxterm can change color presets ###########################
+#
+#ROX_SERVER="dbus-send --session /net/sf/roxterm/Options \
+#                    net.sf.roxterm.Options.SetColourScheme string:$ROXTERM_ID string:HB"
+
+ROX_TANGO="dbus-send --session /net/sf/roxterm/Options \
+                    net.sf.roxterm.Options.SetColourScheme string:$ROXTERM_ID string:Tango"
+
+ROX_SOLARIZED="dbus-send --session /net/sf/roxterm/Options \
+                    net.sf.roxterm.Options.SetColourScheme string:$ROXTERM_ID string:hb_solarized-dark"
+
+ROX_SOLARIZED_LIGHT="dbus-send --session /net/sf/roxterm/Options \
+                       net.sf.roxterm.Options.SetColourScheme string:$ROXTERM_ID string:solarized-light"
+
+
+alias rox-tango=$ROX_TANGO
+alias rox-solarize=$ROX_SOLARIZED
+alias rox-solarize-light=$ROX_SOLARIZED_LIGHT
+
+
 ############### Environment ####################################
 export LANG=en_US.UTF-8
 #export LANG=de_DE.UTF-8

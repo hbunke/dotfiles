@@ -8,7 +8,9 @@
 "colorscheme hb_two2tango
 
 set background=dark
-colorscheme solarized
+"colorscheme solarized
+
+colorscheme hb_two2tango
 
 "solarized
 let g:solarized_contrast='high'

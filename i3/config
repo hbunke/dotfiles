@@ -8,7 +8,7 @@ set $mod Mod1
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Liberation Sans 14
+font pango:Liberation Sans 13
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
@@ -193,9 +193,23 @@ for_window [class="pop-up"] floating enable
 for_window [class="Gvim"] floating_minimum_size 500x400
 
 
-# colors
-#client.focused #4c7899 #F59E11 #ffffff #2e9ef4
-client.focused #4c7899 #ce5c00 #ffffff #2e9ef4
+### colors
+
+## lightorange bg titlebar
+#client.focused #000000 #F59E11 #ffffff #2e9ef4
+
+##darkorange bg titlebar
+#client.focused #000000 #ce5c00 #ffffff #2e9ef4
+
+## numix selected bg titlebar (kind of light darkred)
+client.focused #000000 #d64937 #ffffff #2e9ef4
+
+###numix titlebar color with 'selected' border
+#client.focused #d64937 #2d2d2d #dcdcdc #2e9ef4
+
+
+###darkred
+#client.focused #000000 #610000 #ffffff #2e9ef4
 
 ### autostarts ###
 
