@@ -84,7 +84,8 @@ export LANG=en_US.UTF-8
 #export LANG=de_DE.UTF-8
 export LC_COLLATE=POSIX
 
-export PATH=$PATH:$HOME'/bin':$HOME'/.nix-profile/bin'
+export PATH=$PATH:$HOME'/bin':$HOME'/.nix-profile/bin':$HOME'/.gem/ruby/2.1.0/bin'
+
 
 export EDITOR=vim
 export HGEDITOR=vim
@@ -132,5 +133,5 @@ fi
 source ~/.zshrc_local
 
 #zsh highligting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
