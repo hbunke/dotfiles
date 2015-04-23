@@ -129,9 +129,12 @@ if [[ $OS = FreeBSD ]]; then
     alias ls='ls -Gp'
 fi
 
+
+
+
 # hidden from github
 source ~/.zshrc_local
 
 #zsh highligting
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
