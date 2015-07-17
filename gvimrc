@@ -10,11 +10,11 @@
 set background=dark
 colorscheme solarized
 
-"colorscheme hb_two2tango
+colorscheme hb_two2tango
 
 "solarized
-let g:solarized_contrast='high'
-let g:solarized_visibility='high'
+"let g:solarized_contrast='high'
+"let g:solarized_visibility='high'
 
 
 

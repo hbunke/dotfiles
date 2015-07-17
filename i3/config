@@ -214,8 +214,8 @@ client.focused #000000 #d64937 #ffffff #2e9ef4
 ### autostarts ###
 
 #1.     trayicons
-exec --no-startup-id pnmixer
-#exec --no-startup-id pa-applet
+#exec --no-startup-id pnmixer
+exec --no-startup-id pa-applet
 exec --no-startup-id dropbox
 
 
