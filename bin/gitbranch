@@ -1,0 +1,35 @@
+#!/usr/bin/python
+# hb 2014-05-22
+#
+
+import os
+import subprocess
+import argparse
+
+parser = argparse.ArgumentParser(description="checkout given git branch in all\
+        subdirectories")
+parser.add_argument("branch", help="the branch you want to checkout")
+args = parser.parse_args()
+
+cmd = 'git checkout %s' %args.branch
+
+path = os.getcwd()
+dirs = sorted(os.listdir(path))
+
+print('\n')
+for dir in dirs:
+    print("====" + dir + "====")
+    try:
+        rc = subprocess.Popen(cmd, cwd=dir, shell=True,
+               stdout=subprocess.PIPE)
+        out = rc.stdout.read().decode()
+        if out == "":
+            print('\n')
+            pass
+        else:
+            print("====" + dir + "====")
+            rc = subprocess.call(cmd, cwd=dir, shell=True)
+            print('\n')
+    except:
+        pass
+

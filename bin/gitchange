@@ -1,0 +1,37 @@
+#!env python
+# hb 2014-06-03
+#
+
+import os
+import subprocess
+import argparse
+import sys
+
+parser = argparse.ArgumentParser(description="print log of all\
+        git subdirectories")
+parser.add_argument("month", help="give number of month for changelog")
+parser.add_argument("year", help="give year for changelog")
+args = parser.parse_args()
+
+#TODO: put year in variable
+cmd = 'git --no-pager log --since {0}/01/{1} --until {0}/31/{1}'.format(args.month, args.year)
+
+path = os.getcwd()
+dirs = sorted(os.listdir(path))
+
+print('\n')
+for dir in dirs:
+    try:
+        rc = subprocess.Popen(cmd, cwd=dir, shell=True,
+               stdout=subprocess.PIPE)
+        out = rc.stdout.read().decode()
+        if out == "":
+            print('\n')
+            pass
+        else:
+            print("====" + dir + "====")
+            rc = subprocess.call(cmd, cwd=dir, shell=True)
+            print('\n\n')
+    except:
+        pass
+

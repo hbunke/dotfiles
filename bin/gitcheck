@@ -1,0 +1,28 @@
+#!/usr/bin/python
+# hb 2011-09-19
+#
+# TODO: 
+#   -   cmd line option for shell output (colorized) or not
+
+import os
+import subprocess
+
+path = os.getcwd()
+dirs = sorted(os.listdir(path))
+print('\n')
+for dir in dirs:
+    try:
+        rc = subprocess.Popen('git status', cwd=dir, shell=True,
+               stdout=subprocess.PIPE)
+        out = rc.stdout.read().decode()
+        if out == "":
+            pass
+        else:
+            print("====" + dir + "====")
+            rc = subprocess.call('git status', cwd=dir, shell=True)
+            print('\n')
+    except:
+        pass
+
+
+
