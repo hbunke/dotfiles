@@ -1,16 +1,14 @@
-"spezifika für gvim. rest kommt über .vim/vimrc
+"specific GUI config
 
 
 " #### colorschemes ####
 
+set background=dark
 "colorscheme hbpeachpuff
 "colorscheme hb_warm_grey
-"colorscheme hb_two2tango
-
-set background=dark
-colorscheme solarized
-
 colorscheme hb_two2tango
+"colorscheme solarized
+
 
 "solarized
 "let g:solarized_contrast='high'
@@ -31,11 +29,18 @@ set guifont=Liberation\ Mono\ 10
 " Terminaleinstellung?
 set encoding=utf-8
 
-"gui ohne toolbar
+"gui without toolbar
 set guioptions-=T
 
-"gui ohne menue:
+"gui without menu:
 "set guioptions-=m
+
+" no left scrollbar
+set guioptions-=L
+
+" show tabline always. Avoids that ugly empty (Xmonad) or overlapping (i3)
+" space at the bottom of gvim windows
+set showtabline=2
 
 source ~/.vim/vimrc
 
