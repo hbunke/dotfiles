@@ -5,11 +5,9 @@
 "colorscheme hb
 "colorscheme morning
 "colorscheme hb_morning
+"colorscheme hb_two2tango
 
-"block this
 "set background=dark
 "colorscheme solarized
-
-colorscheme hb_two2tango
 
 source ~/.vim/vimrc
