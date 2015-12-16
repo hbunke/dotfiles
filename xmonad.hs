@@ -38,5 +38,6 @@ myManageHook = composeAll
 myStartupHook = do
     spawn "$HOME/bin/xrandr.sh"
     spawn "$HOME/bin/trayer.sh"
+    spawn "dropbox"
 
 
