@@ -8,3 +8,4 @@ background_type=0
 saturation=0.111210
 audible_bell=0
 show_add_tab_btn=0
+scrollback_lines=4000
